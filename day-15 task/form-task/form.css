@@ -1,0 +1,43 @@
+.form{
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+h1{
+    text-align: center;
+   
+}
+.form-container{
+    box-shadow:  5px 5px 12px #f1d4d4 ;
+    padding: 30px;
+    display: flex;
+    width: 100vh;
+    background: rgb(248, 235, 235);
+}
+.form input{
+    background: rgb(248, 244, 244) ;
+    width: 250px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    background: rgb(238, 234, 234);
+}
+.header{
+    width: 100px;
+}
+.needs-validation{
+    width: 100%;
+}
+.form-check #invalidCheck{
+    width: 15px;
+}
+#validationCustom04{
+width: 250px;
+background: rgb(248, 244, 244) ;
+}
+
